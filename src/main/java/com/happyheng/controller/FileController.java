@@ -89,9 +89,6 @@ public class FileController {
 
         BufferedInputStream bis = null;
         BufferedOutputStream bos = null;
-        //获取项目根目录
-        String ctxPath = request.getSession().getServletContext()
-                .getRealPath("");
         //获取下载文件露肩
         String downLoadPath = filePath + fileName;
         //获取文件的长度
